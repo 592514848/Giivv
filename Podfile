@@ -1,0 +1,13 @@
+platform:ios,'9.0'
+pod ‘AFNetworking’
+pod 'SDWebImage', '~> 3.7.1'
+pod 'SDAutoLayout', '~> 1.3'
+pod 'Fabric'
+pod 'TwitterKit'
+pod 'Crashlytics'
+pod 'Google'
+pod 'Google/SignIn'
+pod 'FMDB'
+pod 'FBSDKCoreKit'
+pod 'FBSDKShareKit'
+pod 'FBSDKLoginKit'
