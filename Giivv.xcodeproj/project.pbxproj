@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		101AB7A01CB21E4200FAB6BC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101AB79F1CB21E4200FAB6BC /* TestViewController.m */; };
+		102DF5EC1CB56EBA001A780F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102DF5EB1CB56EBA001A780F /* BaseViewController.m */; };
+		102DF5F01CB56F18001A780F /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102DF5EF1CB56F18001A780F /* BaseNavigationController.m */; };
+		102DF5FA1CB570EE001A780F /* MainLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102DF5F91CB570EE001A780F /* MainLoginViewController.m */; };
+		102DF5FE1CB5725D001A780F /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102DF5FD1CB5725D001A780F /* BaseTabBarController.m */; };
 		10F0A4761CB2066200BA52BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F0A4751CB2066200BA52BD /* main.m */; };
 		10F0A4791CB2066200BA52BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F0A4781CB2066200BA52BD /* AppDelegate.m */; };
 		10F0A4811CB2066200BA52BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F0A4801CB2066200BA52BD /* Assets.xcassets */; };
@@ -37,6 +41,14 @@
 		101AB79C1CB2172600FAB6BC /* AppConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
 		101AB79E1CB21E4200FAB6BC /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		101AB79F1CB21E4200FAB6BC /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		102DF5EA1CB56EBA001A780F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		102DF5EB1CB56EBA001A780F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		102DF5EE1CB56F18001A780F /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		102DF5EF1CB56F18001A780F /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		102DF5F81CB570EE001A780F /* MainLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainLoginViewController.h; sourceTree = "<group>"; };
+		102DF5F91CB570EE001A780F /* MainLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainLoginViewController.m; sourceTree = "<group>"; };
+		102DF5FC1CB5725D001A780F /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		102DF5FD1CB5725D001A780F /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
 		10F0A4711CB2066200BA52BD /* Giivv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giivv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F0A4751CB2066200BA52BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10F0A4771CB2066200BA52BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +110,100 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
+		102DF5E71CB56E1C001A780F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				102DF5FB1CB5723E001A780F /* BaseTabBarController */,
+				102DF5ED1CB56ED8001A780F /* BaseNavigationController */,
+				102DF5E91CB56EA2001A780F /* BaseViewController */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		102DF5E91CB56EA2001A780F /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				102DF5EA1CB56EBA001A780F /* BaseViewController.h */,
+				102DF5EB1CB56EBA001A780F /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		102DF5ED1CB56ED8001A780F /* BaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				102DF5EE1CB56F18001A780F /* BaseNavigationController.h */,
+				102DF5EF1CB56F18001A780F /* BaseNavigationController.m */,
+			);
+			path = BaseNavigationController;
+			sourceTree = "<group>";
+		};
+		102DF5F11CB56FCF001A780F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				102DF5F21CB570BE001A780F /* Login */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		102DF5F21CB570BE001A780F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				102DF5F31CB570BE001A780F /* MainLogin */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		102DF5F31CB570BE001A780F /* MainLogin */ = {
+			isa = PBXGroup;
+			children = (
+				102DF5F41CB570BE001A780F /* Controller */,
+				102DF5F51CB570BE001A780F /* Model */,
+				102DF5F61CB570BE001A780F /* Networking */,
+				102DF5F71CB570BE001A780F /* View */,
+			);
+			path = MainLogin;
+			sourceTree = "<group>";
+		};
+		102DF5F41CB570BE001A780F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				102DF5F81CB570EE001A780F /* MainLoginViewController.h */,
+				102DF5F91CB570EE001A780F /* MainLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		102DF5F51CB570BE001A780F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		102DF5F61CB570BE001A780F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		102DF5F71CB570BE001A780F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		102DF5FB1CB5723E001A780F /* BaseTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				102DF5FC1CB5725D001A780F /* BaseTabBarController.h */,
+				102DF5FD1CB5725D001A780F /* BaseTabBarController.m */,
+			);
+			path = BaseTabBarController;
+			sourceTree = "<group>";
+		};
 		10F0A4681CB2066200BA52BD = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				101AB79D1CB21E1300FAB6BC /* Test */,
+				102DF5F11CB56FCF001A780F /* Main */,
 				10F0A4A71CB2093100BA52BD /* Common */,
 				10F0A4741CB2066200BA52BD /* Supporting Files */,
 			);
@@ -164,6 +271,7 @@
 		10F0A4A71CB2093100BA52BD /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				102DF5E71CB56E1C001A780F /* Core */,
 				101AB79A1CB2170000FAB6BC /* Constant */,
 			);
 			path = Common;
@@ -380,8 +488,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				101AB7A01CB21E4200FAB6BC /* TestViewController.m in Sources */,
+				102DF5FE1CB5725D001A780F /* BaseTabBarController.m in Sources */,
+				102DF5EC1CB56EBA001A780F /* BaseViewController.m in Sources */,
 				10F0A4791CB2066200BA52BD /* AppDelegate.m in Sources */,
 				10F0A4761CB2066200BA52BD /* main.m in Sources */,
+				102DF5F01CB56F18001A780F /* BaseNavigationController.m in Sources */,
+				102DF5FA1CB570EE001A780F /* MainLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
