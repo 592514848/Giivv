@@ -46,6 +46,12 @@
     [loginButtonClick setTitle: @"FaceBook登录" forState: UIControlStateNormal];
     [loginButtonClick addTarget: self action: @selector(facebookLogin) forControlEvents: UIControlEventTouchUpInside];
     [self.view addSubview: loginButtonClick];
+    
+    UIButton *pushButton = [[UIButton alloc] initWithFrame: CGRectMake(50, 250.0f, 150.0f, 30.0f)];
+    [pushButton setBackgroundColor: [UIColor brownColor]];
+    [pushButton setTitle: @"Push" forState: UIControlStateNormal];
+    [pushButton addTarget: self action: @selector(pushButtonClick) forControlEvents: UIControlEventTouchUpInside];
+    [self.view addSubview: pushButton];
 }
 
 #pragma mark - 
@@ -98,5 +104,13 @@
                                     NSLog(@"Logged in");
                                 }
                             }];
+}
+
+#pragma mark - 
+#pragma mark push
+- (void)pushButtonClick{
+    TestViewController *vc = [[TestViewController alloc] init];
+    [vc.tabBarController setHidesBottomBarWhenPushed: YES];
+    [self.navigationController pushViewController: vc animated: YES];
 }
 @end

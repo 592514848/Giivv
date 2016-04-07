@@ -21,13 +21,14 @@
 /**
  *  viewController
  */
+#import "BaseTabBarController.h"
+
 #import "TestViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     /**
@@ -44,8 +45,10 @@
      *  load root viewController
      */
     self.window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
+    [self.window setBackgroundColor: [UIColor whiteColor]];
     [self.window makeKeyAndVisible];
-    TestViewController *vc = [[TestViewController alloc] init];
+//    TestViewController *vc = [[TestViewController alloc] init];
+    BaseTabBarController *vc = [[BaseTabBarController alloc] init];
     [self.window setRootViewController: vc];
     return YES;
 }
