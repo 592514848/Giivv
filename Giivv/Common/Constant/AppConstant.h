@@ -30,4 +30,44 @@
  */
 #define STATUSBAR_HEIGHT 20.0f
 
+/**
+ *  statusbar height
+ */
+#define CONTENT_HEIGHT (SCREEN_HEIGHT - TABBAR_HEIGHT - NAVIGATIONBAR_HEIGHT)
+
+/**
+ *  window object
+ */
+#define WINDOW [[UIApplication sharedApplication] keyWindow]
+
+/**
+ *  __weak self define
+ */
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+/**
+ *  object is not nil and null
+ */
+#define NotNilAndNull(_ref)  (((_ref) != nil) && (![(_ref) isEqual:[NSNull null]]))
+
+/**
+ *  object is nil or null
+ */
+#define IsNilOrNull(_ref)   (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]))
+
+/**
+ *  string is nil or null or empty
+ */
+#define IsStrEmpty(_ref)    (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) ||([(_ref)isEqualToString:@""]))
+
+/**
+ *  Array is nil or null or empty
+ */
+#define IsArrEmpty(_ref)    (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) ||([(_ref) count] == 0))
+
+/**
+ *  validate string
+ */
+#define VALIDATE_STRING(str) IsNilOrNull(str) ? @"" : str
+
 #endif /* AppConstant_h */

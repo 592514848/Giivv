@@ -110,7 +110,6 @@
 #pragma mark push
 - (void)pushButtonClick{
     TestViewController *vc = [[TestViewController alloc] init];
-    [vc.tabBarController setHidesBottomBarWhenPushed: YES];
     [self.navigationController pushViewController: vc animated: YES];
 }
 @end

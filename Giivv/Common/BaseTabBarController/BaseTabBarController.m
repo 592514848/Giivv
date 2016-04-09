@@ -9,6 +9,7 @@
 
 #import "BaseTabBarController.h"
 #import "TestViewController.h"
+#import "HomePageViewController.h"
 
 @interface BaseTabBarController()
 /**
@@ -36,7 +37,7 @@
     NSMutableArray *controllersArray = [NSMutableArray array];
     for(NSInteger i = 0; i < [self.titleArray count]; i++){
         BaseNavigationController *navigationController = [[BaseNavigationController alloc] init];
-        TestViewController *test = [[TestViewController alloc] init];
+        HomePageViewController *test = [[HomePageViewController alloc] init];
         [test setTitle: [self.titleArray objectAtIndex: i]];
         [navigationController pushViewController: test animated: YES];
 //        [navigationController.tabBarItem setImage: [[UIImage imageNamed:@"ic_product_normal"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];

@@ -8,10 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		101AB7A01CB21E4200FAB6BC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101AB79F1CB21E4200FAB6BC /* TestViewController.m */; };
-		102DF5EC1CB56EBA001A780F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102DF5EB1CB56EBA001A780F /* BaseViewController.m */; };
-		102DF5F01CB56F18001A780F /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102DF5EF1CB56F18001A780F /* BaseNavigationController.m */; };
 		102DF5FA1CB570EE001A780F /* MainLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102DF5F91CB570EE001A780F /* MainLoginViewController.m */; };
-		102DF5FE1CB5725D001A780F /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102DF5FD1CB5725D001A780F /* BaseTabBarController.m */; };
+		10B394B01CB89EA9007E3C5D /* MainLoginNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B394AF1CB89EA9007E3C5D /* MainLoginNavigationController.m */; };
+		10B394B31CB89FD6007E3C5D /* MainLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B394B21CB89FD6007E3C5D /* MainLoginView.m */; };
+		10B394C01CB8A871007E3C5D /* PasscodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B394BF1CB8A871007E3C5D /* PasscodeController.m */; };
+		10B394C31CB8A8FC007E3C5D /* MainPasscodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B394C21CB8A8FC007E3C5D /* MainPasscodeView.m */; };
+		10B394C61CB8B463007E3C5D /* UserDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B394C51CB8B463007E3C5D /* UserDTO.m */; };
+		10B394C91CB8BC17007E3C5D /* PasscodeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B394C81CB8BC17007E3C5D /* PasscodeService.m */; };
+		10B394DF1CB8D7B6007E3C5D /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B394D01CB8D7B6007E3C5D /* BaseNavigationController.m */; };
+		10B394E01CB8D7B6007E3C5D /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B394D31CB8D7B6007E3C5D /* BaseTabBarController.m */; };
+		10B394E11CB8D7B6007E3C5D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B394D61CB8D7B6007E3C5D /* BaseViewController.m */; };
+		10B394E21CB8D7B6007E3C5D /* UIColor+SNFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B394DB1CB8D7B6007E3C5D /* UIColor+SNFoundation.m */; };
+		10B394E71CB8D7E4007E3C5D /* ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B394E61CB8D7E4007E3C5D /* ToastView.m */; };
+		10B394F11CB93AB9007E3C5D /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B394F01CB93AB9007E3C5D /* HomePageViewController.m */; };
+		10B395031CB964C5007E3C5D /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B395021CB964C5007E3C5D /* BaseTableViewController.m */; };
+		10B3950B1CB96977007E3C5D /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B395051CB96977007E3C5D /* blueArrow.png */; };
+		10B3950C1CB96977007E3C5D /* EGORefreshTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B395071CB96977007E3C5D /* EGORefreshTableFooterView.m */; };
+		10B3950D1CB96977007E3C5D /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B395091CB96977007E3C5D /* EGORefreshTableHeaderView.m */; };
+		10B395111CB96D7D007E3C5D /* BaseNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B395101CB96D7D007E3C5D /* BaseNetworkRequest.m */; };
 		10F0A4761CB2066200BA52BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F0A4751CB2066200BA52BD /* main.m */; };
 		10F0A4791CB2066200BA52BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F0A4781CB2066200BA52BD /* AppDelegate.m */; };
 		10F0A4811CB2066200BA52BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F0A4801CB2066200BA52BD /* Assets.xcassets */; };
@@ -38,17 +52,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		101AB79C1CB2172600FAB6BC /* AppConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
 		101AB79E1CB21E4200FAB6BC /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		101AB79F1CB21E4200FAB6BC /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		102DF5EA1CB56EBA001A780F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		102DF5EB1CB56EBA001A780F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		102DF5EE1CB56F18001A780F /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
-		102DF5EF1CB56F18001A780F /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		102DF5F81CB570EE001A780F /* MainLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainLoginViewController.h; sourceTree = "<group>"; };
 		102DF5F91CB570EE001A780F /* MainLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainLoginViewController.m; sourceTree = "<group>"; };
-		102DF5FC1CB5725D001A780F /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
-		102DF5FD1CB5725D001A780F /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		10B394AE1CB89EA9007E3C5D /* MainLoginNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainLoginNavigationController.h; sourceTree = "<group>"; };
+		10B394AF1CB89EA9007E3C5D /* MainLoginNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainLoginNavigationController.m; sourceTree = "<group>"; };
+		10B394B11CB89FD6007E3C5D /* MainLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainLoginView.h; sourceTree = "<group>"; };
+		10B394B21CB89FD6007E3C5D /* MainLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainLoginView.m; sourceTree = "<group>"; };
+		10B394BE1CB8A871007E3C5D /* PasscodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasscodeController.h; sourceTree = "<group>"; };
+		10B394BF1CB8A871007E3C5D /* PasscodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasscodeController.m; sourceTree = "<group>"; };
+		10B394C11CB8A8FC007E3C5D /* MainPasscodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPasscodeView.h; sourceTree = "<group>"; };
+		10B394C21CB8A8FC007E3C5D /* MainPasscodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPasscodeView.m; sourceTree = "<group>"; };
+		10B394C41CB8B463007E3C5D /* UserDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDTO.h; sourceTree = "<group>"; };
+		10B394C51CB8B463007E3C5D /* UserDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDTO.m; sourceTree = "<group>"; };
+		10B394C71CB8BC17007E3C5D /* PasscodeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasscodeService.h; sourceTree = "<group>"; };
+		10B394C81CB8BC17007E3C5D /* PasscodeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasscodeService.m; sourceTree = "<group>"; };
+		10B394CF1CB8D7B6007E3C5D /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		10B394D01CB8D7B6007E3C5D /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		10B394D21CB8D7B6007E3C5D /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		10B394D31CB8D7B6007E3C5D /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		10B394D51CB8D7B6007E3C5D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		10B394D61CB8D7B6007E3C5D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		10B394D81CB8D7B6007E3C5D /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		10B394DA1CB8D7B6007E3C5D /* UIColor+SNFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SNFoundation.h"; sourceTree = "<group>"; };
+		10B394DB1CB8D7B6007E3C5D /* UIColor+SNFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SNFoundation.m"; sourceTree = "<group>"; };
+		10B394E51CB8D7E4007E3C5D /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
+		10B394E61CB8D7E4007E3C5D /* ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastView.m; sourceTree = "<group>"; };
+		10B394EF1CB93AB9007E3C5D /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		10B394F01CB93AB9007E3C5D /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		10B395011CB964C5007E3C5D /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		10B395021CB964C5007E3C5D /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		10B395051CB96977007E3C5D /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		10B395061CB96977007E3C5D /* EGORefreshTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableFooterView.h; sourceTree = "<group>"; };
+		10B395071CB96977007E3C5D /* EGORefreshTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableFooterView.m; sourceTree = "<group>"; };
+		10B395081CB96977007E3C5D /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		10B395091CB96977007E3C5D /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		10B3950A1CB96977007E3C5D /* EGOViewCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOViewCommon.h; sourceTree = "<group>"; };
+		10B3950F1CB96D7D007E3C5D /* BaseNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetworkRequest.h; sourceTree = "<group>"; };
+		10B395101CB96D7D007E3C5D /* BaseNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetworkRequest.m; sourceTree = "<group>"; };
 		10F0A4711CB2066200BA52BD /* Giivv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giivv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F0A4751CB2066200BA52BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10F0A4771CB2066200BA52BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,14 +135,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		101AB79A1CB2170000FAB6BC /* Constant */ = {
-			isa = PBXGroup;
-			children = (
-				101AB79C1CB2172600FAB6BC /* AppConstant.h */,
-			);
-			path = Constant;
-			sourceTree = "<group>";
-		};
 		101AB79D1CB21E1300FAB6BC /* Test */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,37 +144,10 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
-		102DF5E71CB56E1C001A780F /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				102DF5FB1CB5723E001A780F /* BaseTabBarController */,
-				102DF5ED1CB56ED8001A780F /* BaseNavigationController */,
-				102DF5E91CB56EA2001A780F /* BaseViewController */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		102DF5E91CB56EA2001A780F /* BaseViewController */ = {
-			isa = PBXGroup;
-			children = (
-				102DF5EA1CB56EBA001A780F /* BaseViewController.h */,
-				102DF5EB1CB56EBA001A780F /* BaseViewController.m */,
-			);
-			path = BaseViewController;
-			sourceTree = "<group>";
-		};
-		102DF5ED1CB56ED8001A780F /* BaseNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				102DF5EE1CB56F18001A780F /* BaseNavigationController.h */,
-				102DF5EF1CB56F18001A780F /* BaseNavigationController.m */,
-			);
-			path = BaseNavigationController;
-			sourceTree = "<group>";
-		};
 		102DF5F11CB56FCF001A780F /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				10B394E81CB93940007E3C5D /* Home */,
 				102DF5F21CB570BE001A780F /* Login */,
 			);
 			path = Main;
@@ -150,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				102DF5F31CB570BE001A780F /* MainLogin */,
+				10B394B81CB8A834007E3C5D /* Passcode */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -161,6 +169,7 @@
 				102DF5F51CB570BE001A780F /* Model */,
 				102DF5F61CB570BE001A780F /* Networking */,
 				102DF5F71CB570BE001A780F /* View */,
+				10B394AD1CB89E63007E3C5D /* ViewModel */,
 			);
 			path = MainLogin;
 			sourceTree = "<group>";
@@ -170,6 +179,8 @@
 			children = (
 				102DF5F81CB570EE001A780F /* MainLoginViewController.h */,
 				102DF5F91CB570EE001A780F /* MainLoginViewController.m */,
+				10B394AE1CB89EA9007E3C5D /* MainLoginNavigationController.h */,
+				10B394AF1CB89EA9007E3C5D /* MainLoginNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -177,6 +188,8 @@
 		102DF5F51CB570BE001A780F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				10B394C41CB8B463007E3C5D /* UserDTO.h */,
+				10B394C51CB8B463007E3C5D /* UserDTO.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -191,17 +204,212 @@
 		102DF5F71CB570BE001A780F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				10B394B11CB89FD6007E3C5D /* MainLoginView.h */,
+				10B394B21CB89FD6007E3C5D /* MainLoginView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		102DF5FB1CB5723E001A780F /* BaseTabBarController */ = {
+		10B394AD1CB89E63007E3C5D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				102DF5FC1CB5725D001A780F /* BaseTabBarController.h */,
-				102DF5FD1CB5725D001A780F /* BaseTabBarController.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10B394B81CB8A834007E3C5D /* Passcode */ = {
+			isa = PBXGroup;
+			children = (
+				10B394B91CB8A834007E3C5D /* Controller */,
+				10B394BA1CB8A834007E3C5D /* Model */,
+				10B394BB1CB8A834007E3C5D /* Networking */,
+				10B394BC1CB8A834007E3C5D /* View */,
+				10B394BD1CB8A834007E3C5D /* ViewModel */,
+			);
+			path = Passcode;
+			sourceTree = "<group>";
+		};
+		10B394B91CB8A834007E3C5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10B394BE1CB8A871007E3C5D /* PasscodeController.h */,
+				10B394BF1CB8A871007E3C5D /* PasscodeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		10B394BA1CB8A834007E3C5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10B394BB1CB8A834007E3C5D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		10B394BC1CB8A834007E3C5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10B394C11CB8A8FC007E3C5D /* MainPasscodeView.h */,
+				10B394C21CB8A8FC007E3C5D /* MainPasscodeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10B394BD1CB8A834007E3C5D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				10B394C71CB8BC17007E3C5D /* PasscodeService.h */,
+				10B394C81CB8BC17007E3C5D /* PasscodeService.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10B394CE1CB8D7B6007E3C5D /* BaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				10B394CF1CB8D7B6007E3C5D /* BaseNavigationController.h */,
+				10B394D01CB8D7B6007E3C5D /* BaseNavigationController.m */,
+			);
+			path = BaseNavigationController;
+			sourceTree = "<group>";
+		};
+		10B394D11CB8D7B6007E3C5D /* BaseTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				10B394D21CB8D7B6007E3C5D /* BaseTabBarController.h */,
+				10B394D31CB8D7B6007E3C5D /* BaseTabBarController.m */,
 			);
 			path = BaseTabBarController;
+			sourceTree = "<group>";
+		};
+		10B394D41CB8D7B6007E3C5D /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				10B394D51CB8D7B6007E3C5D /* BaseViewController.h */,
+				10B394D61CB8D7B6007E3C5D /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		10B394D71CB8D7B6007E3C5D /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				10B394D81CB8D7B6007E3C5D /* AppConstant.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		10B394D91CB8D7B6007E3C5D /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				10B394DA1CB8D7B6007E3C5D /* UIColor+SNFoundation.h */,
+				10B394DB1CB8D7B6007E3C5D /* UIColor+SNFoundation.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		10B394E41CB8D7E4007E3C5D /* ToastView */ = {
+			isa = PBXGroup;
+			children = (
+				10B394E51CB8D7E4007E3C5D /* ToastView.h */,
+				10B394E61CB8D7E4007E3C5D /* ToastView.m */,
+			);
+			path = ToastView;
+			sourceTree = "<group>";
+		};
+		10B394E81CB93940007E3C5D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				10B394E91CB93A9B007E3C5D /* HomePage */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		10B394E91CB93A9B007E3C5D /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				10B394EA1CB93A9B007E3C5D /* Controller */,
+				10B394EB1CB93A9B007E3C5D /* Model */,
+				10B394EC1CB93A9B007E3C5D /* Networking */,
+				10B394ED1CB93A9B007E3C5D /* View */,
+				10B394EE1CB93A9B007E3C5D /* ViewModel */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		10B394EA1CB93A9B007E3C5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10B394EF1CB93AB9007E3C5D /* HomePageViewController.h */,
+				10B394F01CB93AB9007E3C5D /* HomePageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		10B394EB1CB93A9B007E3C5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10B394EC1CB93A9B007E3C5D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		10B394ED1CB93A9B007E3C5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10B394EE1CB93A9B007E3C5D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10B395001CB964A1007E3C5D /* BaseTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				10B395041CB96977007E3C5D /* EGO */,
+				10B395011CB964C5007E3C5D /* BaseTableViewController.h */,
+				10B395021CB964C5007E3C5D /* BaseTableViewController.m */,
+			);
+			path = BaseTableViewController;
+			sourceTree = "<group>";
+		};
+		10B395041CB96977007E3C5D /* EGO */ = {
+			isa = PBXGroup;
+			children = (
+				10B395051CB96977007E3C5D /* blueArrow.png */,
+				10B395061CB96977007E3C5D /* EGORefreshTableFooterView.h */,
+				10B395071CB96977007E3C5D /* EGORefreshTableFooterView.m */,
+				10B395081CB96977007E3C5D /* EGORefreshTableHeaderView.h */,
+				10B395091CB96977007E3C5D /* EGORefreshTableHeaderView.m */,
+				10B3950A1CB96977007E3C5D /* EGOViewCommon.h */,
+			);
+			path = EGO;
+			sourceTree = "<group>";
+		};
+		10B3950E1CB96D57007E3C5D /* BaseNetworkRequest */ = {
+			isa = PBXGroup;
+			children = (
+				10B3950F1CB96D7D007E3C5D /* BaseNetworkRequest.h */,
+				10B395101CB96D7D007E3C5D /* BaseNetworkRequest.m */,
+			);
+			path = BaseNetworkRequest;
 			sourceTree = "<group>";
 		};
 		10F0A4681CB2066200BA52BD = {
@@ -271,8 +479,14 @@
 		10F0A4A71CB2093100BA52BD /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				102DF5E71CB56E1C001A780F /* Core */,
-				101AB79A1CB2170000FAB6BC /* Constant */,
+				10B3950E1CB96D57007E3C5D /* BaseNetworkRequest */,
+				10B394D71CB8D7B6007E3C5D /* Constant */,
+				10B394D91CB8D7B6007E3C5D /* Foundation */,
+				10B395001CB964A1007E3C5D /* BaseTableViewController */,
+				10B394CE1CB8D7B6007E3C5D /* BaseNavigationController */,
+				10B394D11CB8D7B6007E3C5D /* BaseTabBarController */,
+				10B394D41CB8D7B6007E3C5D /* BaseViewController */,
+				10B394E41CB8D7E4007E3C5D /* ToastView */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -365,6 +579,7 @@
 				TargetAttributes = {
 					10F0A4701CB2066200BA52BD = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = HH3P85AW3W;
 					};
 					10F0A4891CB2066300BA52BD = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -401,6 +616,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10B3950B1CB96977007E3C5D /* blueArrow.png in Resources */,
 				10F0A4811CB2066200BA52BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,13 +703,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10B394B31CB89FD6007E3C5D /* MainLoginView.m in Sources */,
+				10B394DF1CB8D7B6007E3C5D /* BaseNavigationController.m in Sources */,
+				10B3950C1CB96977007E3C5D /* EGORefreshTableFooterView.m in Sources */,
+				10B394C91CB8BC17007E3C5D /* PasscodeService.m in Sources */,
+				10B394E21CB8D7B6007E3C5D /* UIColor+SNFoundation.m in Sources */,
+				10B395111CB96D7D007E3C5D /* BaseNetworkRequest.m in Sources */,
+				10B394E71CB8D7E4007E3C5D /* ToastView.m in Sources */,
 				101AB7A01CB21E4200FAB6BC /* TestViewController.m in Sources */,
-				102DF5FE1CB5725D001A780F /* BaseTabBarController.m in Sources */,
-				102DF5EC1CB56EBA001A780F /* BaseViewController.m in Sources */,
+				10B394E01CB8D7B6007E3C5D /* BaseTabBarController.m in Sources */,
 				10F0A4791CB2066200BA52BD /* AppDelegate.m in Sources */,
+				10B394F11CB93AB9007E3C5D /* HomePageViewController.m in Sources */,
+				10B394B01CB89EA9007E3C5D /* MainLoginNavigationController.m in Sources */,
 				10F0A4761CB2066200BA52BD /* main.m in Sources */,
-				102DF5F01CB56F18001A780F /* BaseNavigationController.m in Sources */,
+				10B395031CB964C5007E3C5D /* BaseTableViewController.m in Sources */,
+				10B394C01CB8A871007E3C5D /* PasscodeController.m in Sources */,
+				10B394E11CB8D7B6007E3C5D /* BaseViewController.m in Sources */,
+				10B3950D1CB96977007E3C5D /* EGORefreshTableHeaderView.m in Sources */,
 				102DF5FA1CB570EE001A780F /* MainLoginViewController.m in Sources */,
+				10B394C61CB8B463007E3C5D /* UserDTO.m in Sources */,
+				10B394C31CB8A8FC007E3C5D /* MainPasscodeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,12 +846,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = Giivv/Prefix.pch;
 				INFOPLIST_FILE = Giivv/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youdar.Giivv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b411c095-c576-453f-864c-1635e5f186d5";
 			};
 			name = Debug;
 		};
@@ -632,12 +863,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = Giivv/Prefix.pch;
 				INFOPLIST_FILE = Giivv/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youdar.Giivv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b411c095-c576-453f-864c-1635e5f186d5";
 			};
 			name = Release;
 		};

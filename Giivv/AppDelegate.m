@@ -22,8 +22,9 @@
  *  viewController
  */
 #import "BaseTabBarController.h"
-
+#import "MainLoginNavigationController.h"
 #import "TestViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -48,8 +49,9 @@
     [self.window setBackgroundColor: [UIColor whiteColor]];
     [self.window makeKeyAndVisible];
 //    TestViewController *vc = [[TestViewController alloc] init];
-    BaseTabBarController *vc = [[BaseTabBarController alloc] init];
-    [self.window setRootViewController: vc];
+//    BaseTabBarController *vc = [[BaseTabBarController alloc] init];
+    MainLoginNavigationController *loginNavigationController = [[MainLoginNavigationController alloc] init];
+    [self.window setRootViewController: loginNavigationController];
     return YES;
 }
 
